@@ -1,3 +1,19 @@
+/*
+Colors used:
+Dark background: #2b6777
+Light background: #c8d8e4
+Grey backgrounds: #f2f2f2
+Text on dark background: #ffffff
+Text: #183942
+highlight/CTA: #52ab98
+*/
+
 body {
-    background-color: lightblue;
+    background-color: #c8d8e4;
+    font-family: 'bitter', sans-serif;
 }
+
+h1{
+    font-family: 'raleway', sans-serif;
+}
+
