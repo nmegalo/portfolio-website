@@ -11,6 +11,10 @@ highlight/CTA: #52ab98
 body {
     background-color: #c8d8e4;
     font-family: 'bitter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    color: #183942;
 }
 
 h1,h2{
