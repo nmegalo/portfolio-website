@@ -9,7 +9,7 @@ highlight/CTA: #52ab98
 */
 
 body {
-    background-color: #c8d8e4;
+    background-color: #f2f2f2;
     font-family: 'bitter', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -42,4 +42,15 @@ h2 {
   img{
     width: 100%;
   }
-
+.button{
+    background-color: #c8d8e4;
+    color: #183942;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px;
+    transition: .2s opacity;
+}
+.button:hover{
+    opacity: .8;
+    text-decoration: none;
+}
