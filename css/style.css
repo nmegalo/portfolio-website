@@ -43,6 +43,10 @@ img{
   width: 100%;
 }
 
+header {
+  background-color: #2b6777;
+}
+
 a:hover,
 a:focus {
   color: #52ab98;
@@ -96,3 +100,4 @@ a:active{
   color: black;
   list-style: none;
 }
+
