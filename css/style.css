@@ -101,3 +101,28 @@ a:active{
   list-style: none;
 }
 
+#resume{
+  display: inline-block;
+  background-color: #c8d8e4;
+  font-size: 1.125rem;
+  color: #183942;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 6px 12px;
+  /* padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px; */
+  transition: .2s opacity;
+}
+
+#resume:hover,
+#resume:focus {
+  color: #183942;
+  opacity: .8;
+  text-decoration: none;
+}
+#resume:active{
+  color: #183942;
+  text-decoration: none;
+}
