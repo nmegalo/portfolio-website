@@ -95,6 +95,12 @@ a:active{
   color:#183942;
   text-decoration: none;
 }
+#email:hover,
+#email:focus {
+  background-color: #52ab98;
+  opacity: .8;
+}
+
 .socialmedia a,
 .socialmedia ul{
   color: black;
