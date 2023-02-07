@@ -45,6 +45,9 @@ img{
 
 header {
   background-color: #2b6777;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #183942;
 }
 
 a:hover,
