@@ -31,7 +31,7 @@ body {
 }
 
 #mywork .row{
-  margin: 24px 0;
+  margin: 24px 0 0 0;
   padding-bottom: 24px;
   border-bottom: #2b6777 solid thin;
 }
@@ -63,7 +63,7 @@ img{
 }
 main{
   padding-top: 148px;
-  padding-bottom: 56px;
+  padding-bottom: 32px;
 }
 /* header styling start */
 header {
@@ -125,10 +125,17 @@ border-radius: 50%;
 /* footer styling start */
 
 footer {
+  background-color: #2b6777;
+  color: #ffffff;
   text-align: center;
-  width: 100%;
+  width: 100%;  
+  padding-top: 8px;
+  padding-bottom: 16px;
 }
 
+footer h2 {
+  margin-top: 16px;
+}
 footer ul{
   display: inline-block;
   list-style-type: none;
@@ -184,7 +191,7 @@ a:active{
   font-weight: 500;
   line-height: 1.5;
   border-radius: 4px;
-  padding: 8px 32px;
+  padding: 8px 64px;
 }
 #email a{
   color:#183942;
