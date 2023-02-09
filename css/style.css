@@ -13,9 +13,9 @@ highlight/CTA: #52ab98
   padding: 0 16px;
 }
 
-section{
+/* section{
   background-color: pink;
-}
+} */
 * {
   box-sizing:border-box;
   /* border: black thin solid; */
@@ -30,7 +30,7 @@ body {
   color: #183942;
 }
 
-.row{
+#mywork .row{
   margin: 24px 0;
   padding-bottom: 24px;
   border-bottom: #2b6777 solid thin;
@@ -61,11 +61,87 @@ h4 {
 img{
   width: 100%;
 }
-
+main{
+  padding-top: 148px;
+  padding-bottom: 56px;
+}
+/* header styling start */
 header {
   background-color: #2b6777;
+  text-align: center;
+  padding: 8px 0;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 2px -1px 12px 6px rgba(242,242,242,0.25);
+  -moz-box-shadow: 2px -1px 12px 6px rgba(242,242,242,0.25);
+  box-shadow: 2px -1px 12px 6px rgba(242,242,242,0.25);
 }
 
+.logo {
+  max-width: 250px;
+}
+#mainnav {
+  display: inline-block;
+  width: 100%;
+}
+
+#mainnav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 0 16px;
+  text-transform: uppercase
+  font-weight: 700;
+  color: #ffffff;
+}
+/* header styling stop */
+
+/* hero styling start */
+#hero {
+  display: inline-block;
+  width: 100%;
+  background-color: #2b6777;
+  color: #ffffff;
+  padding: 16px 0;
+}
+#hero h1{
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+#headshot {
+display: inline-block;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+}
+/* hero styling end */
+
+
+/* footer styling start */
+
+footer {
+  text-align: center;
+  width: 100%;
+}
+
+footer ul{
+  display: inline-block;
+  list-style-type: none;
+}
+.copyright {
+  font-size: .79rem;
+}
+/* footer styling end */
+
+
+a.{
+  color: #183942;
+}
 a:hover,
 a:focus {
   color: #52ab98;
