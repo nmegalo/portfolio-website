@@ -164,13 +164,7 @@ footer {
 footer h2 {
   margin-top: 16px;
 }
-footer ul{
-  display: inline-block;
-  list-style-type: none;
-}
-.copyright {
-  font-size: .875rem;
-}
+
 
 
 /* regular  */
@@ -214,6 +208,43 @@ a:active{
   background-color: #52ab98;
   opacity: .8;
 }
+
+
+#socialmedia > ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+#socialmedia > ul > li {
+  display: inline-block;
+  padding: 0 16px;
+} 
+
+#socialmedia i {
+  color: white;
+}
+
+
+/*old code
+footer ul li {
+  display: inline-block;
+  width: 100%;
+}
+
+footer ul li a {
+  color: white;
+  
+}
+*/
+/*
+#socialmedia ul {  
+  list-style-type: none;
+  padding: 0;
+}
+*/
+.copyright {
+  font-size: .875rem;
+}
 /* footer styling end */
 
 
@@ -243,11 +274,7 @@ a:active{
 }
 
 
-.socialmedia a,
-.socialmedia ul{
-  color: black;
-  list-style: none;
-}
+
 
 #resume{
   display: inline-block;
