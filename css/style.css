@@ -180,22 +180,24 @@ footer h2 {
 }
 
 /* regular  */
-a.{
-  color: #183942;
+a.telephone{
+  color: #52ab98;
+  text-decoration: none;
 }
 
-a:visited {
-  color:#183942;
-  text-decoration: wavy;
+a.telephone:visited {
+  color: #ffffff;
+  text-decoration: underline;
+ 
 }
-a:hover,
-a:focus {
+a.telephone:hover,
+a.telephone:focus {
   color: #52ab98;
   text-decoration: underline;
 }
-a:active{
-  color: #183942;
-  text-decoration: none;
+a.telephone:active{
+  color: #ffffff;
+  text-decoration: underline;
 } 
 
 #email {
