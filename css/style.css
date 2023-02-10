@@ -164,8 +164,11 @@ nav > ul > li {
 /* hero styling end */
 
 
-/* footer styling start */
 
+
+
+
+/* footer styling start */
 footer {
   background-color: #2b6777;
   color: #ffffff;
@@ -223,7 +226,6 @@ a.telephone:active{
   opacity: .8;
 }
 
-
 #socialmedia > ul {
   list-style-type: none;
   padding: 0;
@@ -243,71 +245,125 @@ a.telephone:active{
 }
 /* footer styling end */
 
-
-.button {
-  display: inline-block;
-  background-color: #c8d8e4;
-  font-size: 1.125rem;
-  color: #183942;
-  font-weight: 500;
-  border-radius: 4px;
-  padding: 6px 12px;
-  /* padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  padding-right: 12px; */
-  transition: .2s opacity;
-}
-.button:hover,
-.button:focus {
-  color: #183942;
-  opacity: .8;
-  text-decoration: none;
-}
-.button:active{
-  color: #183942;
-  text-decoration: none;
-}
-
-
-
-
-#resume{
-  display: inline-block;
-  background-color: #c8d8e4;
-  font-size: 1.125rem;
-  color: #183942;
-  font-weight: 500;
-  border-radius: 4px;
-  padding: 6px 12px;
-  /* padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  padding-right: 12px; */
-  transition: .2s opacity;
-}
-
-#resume:hover,
-#resume:focus {
-  color: #183942;
-  opacity: .8;
-  text-decoration: none;
-}
-#resume:active{
-  color: #183942;
-  text-decoration: none;
-}
-/* picture{
-  border-radius: 0;
-} */
-
+/*index.html project cover image styling start*/
 .coverimage picture {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
 }
-
 .coverimage img {
   margin-top: 24px;
   border-radius: 4px;
 }
+/*index.html project cover image styling end*/
+
+/* View Project buttons on work.html page */
+.button{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #c8d8e4;
+  color: #183942;
+  /* border: 1px solid; */
+  padding: 1em 2em;
+  font-size: 1.125em;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 6px 12px;
+  transition: 0.25s;
+}
+.button:visited{
+  color:#2b6777;
+}
+
+.button:hover,
+.button:focus {
+  border-color: #c8d8e4;
+  color:#2b6777;
+  text-decoration: underline;
+  box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.button:active{
+  border-color: #c8d8e4;
+  color:#2b6777;
+  text-decoration: underline;
+  box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
+  cursor: pointer;
+}
+/*end styling on project buttons */
+
+/*About Me page styles */
+#aboutme h1 {
+  margin: 0;
+  padding: 16px 0;
+  text-align: center;
+}
+
+#mystory h2{
+  display: inline-block;
+  margin: 0;
+  padding: 16px 0;
+  text-align: left;
+}
+#mystory p{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 24px;
+  text-align: left;
+}
+/* download resume button states */
+#resume{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #c8d8e4;
+  color: #183942;
+  /* border: 1px solid; */
+  padding: 1em 2em;
+  font-size: 1.125em;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 6px 12px;
+  transition: 0.25s;
+}
+#resume:visited{
+  color: #2b6777;
+}
+#resume:hover,
+#resume:focus {
+  text-decoration: none;
+  border-color: #c8d8e4;
+  color:#2b6777;
+  text-decoration: underline;
+  box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+#resume:active{
+  border-color: #c8d8e4;
+  color: #183942;
+  text-decoration: underline;
+  box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
+  cursor: pointer;
+}
+/* end download resume button states */
+
+/*skills and tools style start */
+ #skills h3{
+  margin: 0;
+  padding-bottom: 8px;
+ }
+
+/*skills and tools style end*/
+
+
+
+
+
+
+
+
+
+
 
