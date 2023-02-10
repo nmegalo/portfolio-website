@@ -51,7 +51,7 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 h4 {
   font-size: 1.125rem;
@@ -108,21 +108,23 @@ nav > ul > li {
   color: white;
 } 
 /*this works with the mainnav a hover*/
-#mainnav a:hover{
+#mainnav a:hover,
+#mainnav a:focus {
 /*nav > ul > li > a:hover {*/
   padding: 0 16px;
   text-transform: uppercase;
   text-decoration: underline;
-  font-weight: 300;
-  color: yellow;
+  font-weight: 600;
+  color: #ffffff;
 } 
  
 #mainnav a:active {
 /* nav > ul > li > a:active { */
   padding: 0 16px;
   text-transform: uppercase;
-  font-weight: 300;
-  color: green;
+  text-decoration: underline;
+  font-weight: 600;
+  color: #183942;
 }
 /* header styling stop */
 
@@ -357,13 +359,126 @@ a.telephone:active{
 
 /*skills and tools style end*/
 
+/*Sage Project page style start*/
+#sage-project h2{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 16px;
+}
+#sage-project h3{
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 16px;
+  font-style: italic;
+}
+#sage-project p{
+  text-align: left;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+#myrole h3{
+  text-decoration: underline;
+  font-style: normal;
+}
+
+div .image {
+  padding-bottom: 16px;
+}
+/* OLD NAVIGATION ICON STYLES
+.navicon{
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+#pagenav .navicon{
+  /* height: 32px; 
+  margin: 0 auto;
+  padding-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  /* width: 15%; 
+ 
+  float: left;
+ 
+}
+
+.navigation-icon {
+  font-size: 2rem;
+}
+.navicon h4{
+  margin: 0;
+} */
+
+/*new navigation icon styling using ul and li*/
 
 
+#page-nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} 
 
+#page-nav > ul > li {
+  display: inline-block;
+  padding: 0 16px;
+} 
 
+#page-nav i {
+  color: white;
+}
 
+#pagenav {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 40px;
+}
 
+.icons{
+  display: block;
+  margin: 0 auto;
+}
 
+#page-nav .icons{
+  height: 32px; 
+  margin: 0 auto;
+  padding-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;  
+  float: left;
+}
 
+.icons h4{
+  margin: 0;
+  font-size: 1rem;
+  padding-right: 16px;
+  
+}
 
+#nextsteps h3{
+  font-style: normal;
+}
 
+ol > li > span {
+  font-weight: 600;
+}
+
+.design-system {
+  padding-bottom: 16px;
+}
+
+.test-plan {
+  padding-bottom: 16px;
+}
+
+#problem-solution h3{
+  font-style: normal;
+}

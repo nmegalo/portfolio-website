@@ -35,7 +35,7 @@
       </div>
     </header>
      <!-- start Sage project here -->
-    <main>
+    <main id="sage-project">
       <div class="container">
         <div>
           <h1>Case Study: Sage</h1>
@@ -58,7 +58,7 @@
           </div>
         
           <!-- PROBLEM & SOLUTION -->
-          <div>
+          <div id="problem-solution">
             <div>
               <h3>Problem</h3>
               <p>Parents and caregivers can be overwhelmed by the advice and opinions regarding their child's nutrition. Waitlists to see pediatric specialists like dieticians and allergists can be months long. Online information and resources are not always rooted in evidence and it can be difficult to sort through all the information that can be found online and on social media.</p>
@@ -109,31 +109,49 @@
         </div>
       </section>
 
-      <nav id="pagenav">
-        <div class="container">
-          <div>
-            <h2>My Process</h2>
-          </div>
-          <!-- icons to jump to sections on page -->
-          <div> 
-            <div class="navicon">
+      <nav id="pagenav" class="container">
+        
+        <div>
+          <h2>My Process</h2>
+        </div>
+        <!-- icons to jump to sections on page -->
+        <div id="page-nav"> 
+          <ul>
+            <li class="icons">
               <a href="#Research"><img src="img/Research-icon.png" alt="Jump to Research"></a>
               <h4>Research</h4>
-            </div>
-            <div class="navicon">
+            </li>
+            <li class="icons">
               <a href="#Design"><img src="img/Design-icon.png" alt="Jump to Design"></a>
               <h4>Design</h4>
-            </div>
-            <div class="navicon">
+            </li>
+            <li class="icons">
               <a href="#Evaluate"><img src="img/Evaluate-icon.png" alt="Jump to Evaluate"></a>
               <h4>Evaluate</h4>
-            </div>
-            <div class="navicon">
+            </li>
+            <li class="icons">
               <a href="#FinalProduct"><img src="img/FinalProduct-icon.png" alt="Jump to Final Product"></a>
-              <h4>Final Product</h4>
-            </div>
+              <h4>Research</h4>
+            </li>
+          </ul>
+          <!-- <div class="navicon">
+            <a href="#Research"><img src="img/Research-icon.png" alt="Jump to Research"></a>
+            <h4>Research</h4>
           </div>
-        </div>  
+          <div class="navicon">
+            <a href="#Design"><img class="navigation-icon" src="img/Design-icon.png" alt="Jump to Design"></a>
+            <h4>Design</h4>
+          </div>
+          <div class="navicon">
+            <a href="#Evaluate"><img src="img/Evaluate-icon.png" alt="Jump to Evaluate"></a>
+            <h4>Evaluate</h4>
+          </div>
+          <div class="navicon">
+            <a href="#FinalProduct"><img src="img/FinalProduct-icon.png" alt="Jump to Final Product"></a>
+            <h4>Final Product</h4>
+          </div> -->
+        </div>
+        
       </nav>
       <!-- research div -->
       <section id="research">
@@ -144,14 +162,14 @@
             </div>
             <p>To begin, I conducted competitive analysis on websites and apps that focus on nutrition advice for parents. My analysis found that while the parenting advice industry is robust, there are few spaces where parents can connect with an expert directly. Based on this analysis, the goal of Sage is to connect parents and experts directly, at a time that's convenient for them, while also offering evidence-based resources to access any time.</p>
             <p>Next, I moved into defining my research strategy and objectives. Understanding the target audience, their challenges, and how they currently get advice was priority. I created a multiple choice survey and shared it in a variety of parent-centered online communities. The survey was live for two days and received 22 responses.</p>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/SurveyQuestion-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/SurveyQuestion-2x.png" alt="Survey Questions">
               </picture>
             </div>
             <p>I conducted user interviews to build personas and to inform the design. I prepared an interview script with 12 open-ended questions. My goal for these interviews was to understand motivation for seeking nutrition advice, document frustrations with the current way nutrition advice is presented and received, and to identify any other challenges faced by the target audience. I recruited and interviewed 4 individuals, all of whom are parents. The interviews were conducted in-person.</p>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/InterviewInsights-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/InterviewInsights-2x.png" alt="Interview Insights">
@@ -164,32 +182,32 @@
             <h3>Personas & User Flows</h3>
             <p>In order to form a deeper understanding of Sage users, I used data from the survey and interviews to create two personas, each representing different user types. Personas not only allowed me to empathize with one type of user, but they really represented groups of users, as many parents could relate to these challenges. User Journeys captured their current experience with finding an expert and researching infant nutrition philosophies. These two journeys addressed the first three insights identified in the interviews: accessing nutrition information when convenient, finding a connection with an expert based on specific needs, and a need for the information to be organized and easy to find.</p>
             <!-- persona & journey images WANT TO ADD CAPTIONS BELOW IMAGES?-->
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/Persona1-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Persona1-2x.png" alt="Persona 1">
               </picture>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/User1-JourneyMap-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/User1-JourneyMap-2x.png" alt="User Journey 1">
               </picture>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/Persona2-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Persona2-2x.png" alt="Persona 2">
               </picture>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/User2-JourneyMap-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/User2-JourneyMap-2x.png" alt="User Journey 2">
               </picture>
             </div>
             <p>Now that I understand more about Sage's users, I started to flesh out user stories that would highlight the main features of the app. The user stories were then converted to user flows using LucidChart to illustrate how the user would interact with Sage and accomplish those goals.</p>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/BookExpertChatFlow-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/BookExpertChat-Flow-2x.png" alt="Book Expert Chat User Flow">
@@ -200,13 +218,13 @@
           <div>
             <h3>Information Architecture</h3>
             <p>I conducted an open card sort through OptimalSort and asked participants to sort 20 cards into categories, and then name those categories. Having participants name the categories was helpful in challenging my assumptions as to what titles made sense, and led to navigation that made sense to the user.</p>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/Sitemap-BeforeCardSort-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Sitemap-BeforeCardSort-2x.png" alt="Sitemap Before Card Sort">
               </picture>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/Sitemap-AfterCardSort-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Sitemap-AfterCardSort-2x.png" alt="Sitemap After Card Sort">
@@ -223,7 +241,7 @@
               <h2>Design</h2>
             </div>
             <p>My design process began with brainstorming session on the whiteboard, followed by high-level sketches in my notebook. Sketching with pen and paper allowed me to get my ideas down quickly, and to focus on the structure and navigation of the page.</p>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/WhiteboardSketches-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/WhiteboardSketches-2x.png" alt="Whiteboard Sketches">
@@ -234,28 +252,28 @@
           <!-- Wireframes div -->
           <div>
             <h3>Low-Fidelity Wireframes</h3>
-            <div>
+            <div class="image">
+              <picture>
+                <source srcset="img/sage/1x/lowfi-book-expert-1x.png" media="(max-width:767px)">
+                <img src="img/sage/2x/lowfi-bookexpert-2x.png" alt="Low Fidelity Wireframes">
+              </picture>
+            </div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/lowfi-searchexpert-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/lowfi-searchexpert-2x.png" alt="Low Fidelity Wireframes">
               </picture>
             </div>
             <div>
-              <picture>
-                <source srcset="img/sage/1x/lowfi-bookexpert-1x.png" media="(max-width:767px)">
-                <img src="img/sage/2x/lowfi-bookexpert-2x.png" alt="Low Fidelity Wireframes">
-              </picture>
-            </div>
-            <div>
               <h3>Mid-Fidelity Wireframes</h3>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/expert-search-midfi-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/expertsearch-midfi-2x.png" alt="Mid Fidelity Wireframes">
               </picture>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/resources-midfi-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/resources-midfi-2x.png" alt="Mid Fidelity Wireframes">
@@ -271,23 +289,23 @@
             <h2>Evaluate</h2>
           </div>
           <p>I created a fully-functional, high-fidelity prototype of the new flows using Figma. At the same time, prepared a test plan and started recruiting participants that fit the criteria. I conducted 6 usability tests, 3 in-person and 3 remotely via Zoom.</p>
-          <div>
-            <a href="files/Sage-UsabilityTestPlan.pdf" target="_blank">View Test Plan</a>
+          <div class="test-plan">
+            <a class="button" href="files/Sage-UsabilityTestPlan.pdf" target="_blank">View Test Plan</a>
           </div>
           <p>I used Affinity Mapping to synthesize the data and identify common issues and errors in the prototype. I used the Nielson/Norman scale to rank the severity of observed errors and pain points and to prioritize changes in future iterations.</p>
-          <div>
+          <div class="image">
             <picture>
               <source srcset="img/sage/1x/Observations-1x.png" media="(max-width:767px)">
               <img src="img/sage/2x/Observations-2x.png" alt="Think Feel Do">
             </picture>
           </div>
-          <div>
+          <div class="image">
             <picture>
               <source srcset="img/sage/1x/Quotes-1x.png" media="(max-width:767px)">
               <img src="img/sage/2x/Quotes-2x.png" alt="Quotes">
             </picture>
           </div>
-          <div>
+          <div class="image">
             <picture>
               <source srcset="img/sage/1x/RainbowSpreadSheet-1x.png" media="(max-width:767px)">
               <img src="img/sage/2x/RainbowSpreadSheet-2x.png" alt="Rainbow Spreadsheet">
@@ -299,7 +317,7 @@
           <h3>Usability Findings & Revisions</h3>   
           <div>
             <h4>Issue One</h4>
-            <div> 
+            <div class="image"> 
               <picture>
                 <source srcset="img/sage/1x/Issue-1.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Issue-1-2x.png" alt="Issue 1">
@@ -308,7 +326,7 @@
           </div>
           <div>
             <h4>Issue Two</h4>
-            <div> 
+            <div class="image"> 
               <picture>
                 <source srcset="img/sage/1x/Issue-2.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Issue-2-2x.png" alt="Issue 2">
@@ -317,7 +335,7 @@
           </div>
           <div>
             <h4>Issue Three</h4>
-            <div> 
+            <div class="image"> 
               <picture>
                 <source srcset="img/sage/1x/Issue-3.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Issue-3-2x.png" alt="Issue 3">
@@ -326,7 +344,7 @@
           </div>
           <div>
             <h4>Issue Four</h4>
-            <div> 
+            <div class="image"> 
               <picture>
                 <source srcset="img/sage/1x/Issue-4.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Issue-4-2x.png" alt="Issue 4">
@@ -335,7 +353,7 @@
           </div>
           <div>
             <h4>Issue Five</h4>
-            <div> 
+            <div class="image"> 
               <picture>
                 <source srcset="img/sage/1x/Issue-5.png" media="(max-width:767px)">
                 <img src="img/sage/2x/Issue-5-2x.png" alt="Issue 5">
@@ -357,10 +375,10 @@
             <li>Material Design guidelines were followed for all UI</li>
             <li>Layout was designed on an 8-point grid for consistency</li>
           </ul>
-          <div>
-            <a href="files/Sage-DesignSystem.pdf" target="_blank">View Design System</a>
+          <div class="design-system">
+            <a class="button" href="files/Sage-DesignSystem.pdf" target="_blank">View Design System</a>
           </div>
-          <div>
+          <div class="iamge">
             <picture>
               <source srcset="img/sage/1x/DSL1_1x.png" media="(max-width:767px)">
               <img src="img/sage/2x/DSL1-2x.png" alt="Design Language System">
@@ -375,7 +393,7 @@
             <div>
               <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLDLoU2mijLJkDBAC0yVIbu%2FFinal-Prototype%3Fnode-id%3D120%253A24747%26scaling%3Dscale-down%26page-id%3D120%253A10976%26starting-point-node-id%3D120%253A24747" allowfullscreen></iframe>
             </div>
-            <div>
+            <div class="image">
               <picture>
                 <source srcset="img/sage/1x/FinalScreens-allflows-1x.png" media="(max-width:767px)">
                 <img src="img/sage/2x/FinalScreens-allflows-2x.png" alt="Prototype Images">
@@ -389,9 +407,9 @@
         <div class="container">
           <h3>Next Steps</h3>
           <ol>
-            <li>Usability Tests - conduct a second round of usability tests with the current prototype. I plan to test how users search for and consumer content.</li>
-            <li>Refine Visual Design - continue working on UI and visual design, refining the resources section so that the look and feel of content presented resonates with Sage users.</li>
-            <li>Explore Opportunities - Explore the business side of Sage such as the viability, how to launch, and free vs. paid memberships. Content is key to Sage, so will also explore how that can be generated, whether through expert partnerships, the Sage community, or both.</li>
+            <li><span>Usability Tests</span> - conduct a second round of usability tests with the current prototype. I plan to test how users search for and consumer content.</li>
+            <li><span>Visual Design</span> - continue working on UI and visual design, refining the resources section so that the look and feel of content presented resonates with Sage users.</li>
+            <li><span>Explore Opportunities</span> - Explore the business side of Sage such as the viability, how to launch, and free vs. paid memberships. Content is key to Sage, so will also explore how that can be generated, whether through expert partnerships, the Sage community, or both.</li>
           </ol>
         </div>
       </section>
