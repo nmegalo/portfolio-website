@@ -68,6 +68,7 @@ main{
 /* header styling start */
 header {
   background-color: #2b6777;
+  font-family: Raleway, sans-serif;
   text-align: center;
   padding: 8px 0;
   position: fixed;
@@ -80,23 +81,50 @@ header {
 .logo {
   max-width: 250px;
 }
-#mainnav {
-  display: inline-block;
-  width: 100%;
-}
-
-#mainnav ul{
+/* navigation styling start */
+nav > ul{
   list-style-type: none;
   padding: 0;
 }
 
 nav > ul > li {
   display: inline-block;
+}
+/* this put nav links in line  */
+#mainnav a { 
   padding: 0 16px;
-  text-transform: uppercase
+  text-transform: uppercase;
+  text-decoration: none;
   font-weight: 700;
   color: #ffffff;
 }
+
+
+#mainnav a:visited {
+/*nav > ul > li > a:visited {*/ 
+  padding: 0 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+} 
+/*this works with the mainnav a hover*/
+#mainnav a:hover{
+/*nav > ul > li > a:hover {*/
+  padding: 0 16px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  color: yellow;
+} 
+ 
+#mainnav a:active {
+/* nav > ul > li > a:active { */
+  padding: 0 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: green;
+}
+
 /* header styling stop */
 
 /* hero styling start */
@@ -143,11 +171,16 @@ footer ul{
 .copyright {
   font-size: .875rem;
 }
-/* footer styling end */
 
 
+/* regular  */
 a.{
   color: #183942;
+}
+
+a:visited {
+  color:#183942;
+  text-decoration: wavy;
 }
 a:hover,
 a:focus {
@@ -157,7 +190,33 @@ a:focus {
 a:active{
   color: #183942;
   text-decoration: none;
+} 
+
+#email {
+  display: inline-block;
+  color:#183942;
+  background-color: #52ab98;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 4px;
+  padding: 8px 64px;
 }
+#email:visited {
+  color:#183942;
+}
+#email a{
+  color:#183942;
+  text-decoration: none;
+}
+#email:hover,
+#email:focus {
+  background-color: #52ab98;
+  opacity: .8;
+}
+/* footer styling end */
+
+
 .button {
   display: inline-block;
   background-color: #c8d8e4;
@@ -183,25 +242,6 @@ a:active{
   text-decoration: none;
 }
 
-#email {
-  display: inline-block;
-  color:#183942;
-  background-color: #52ab98;
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 1.5;
-  border-radius: 4px;
-  padding: 8px 64px;
-}
-#email a{
-  color:#183942;
-  text-decoration: none;
-}
-#email:hover,
-#email:focus {
-  background-color: #52ab98;
-  opacity: .8;
-}
 
 .socialmedia a,
 .socialmedia ul{
@@ -234,3 +274,17 @@ a:active{
   color: #183942;
   text-decoration: none;
 }
+/* picture{
+  border-radius: 0;
+} */
+
+.coverimage picture {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+}
+
+.coverimage img {
+  margin-top: 24px;
+  border-radius: 8px;
+}
+
