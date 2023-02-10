@@ -86,11 +86,11 @@ nav > ul{
   list-style-type: none;
   padding: 0;
 }
-
+/* this put nav links in line  */
 nav > ul > li {
   display: inline-block;
 }
-/* this put nav links in line  */
+/* NEED TO STYLE VARIOUS STATES */
 #mainnav a { 
   padding: 0 16px;
   text-transform: uppercase;
@@ -124,7 +124,6 @@ nav > ul > li {
   font-weight: 700;
   color: green;
 }
-
 /* header styling stop */
 
 /* hero styling start */
@@ -141,11 +140,13 @@ nav > ul > li {
   display: inline-block;
   width: 100%;
 }
-#headshot {
+.headshot {
 display: inline-block;
-width: 120px;
-height: 120px;
+width: 60px;
+height: 60px;
 border-radius: 50%;
+position: relative;
+float: left;
 }
 /* hero styling end */
 
@@ -164,8 +165,6 @@ footer {
 footer h2 {
   margin-top: 16px;
 }
-
-
 
 /* regular  */
 a.{
@@ -224,24 +223,6 @@ a:active{
   color: white;
 }
 
-
-/*old code
-footer ul li {
-  display: inline-block;
-  width: 100%;
-}
-
-footer ul li a {
-  color: white;
-  
-}
-*/
-/*
-#socialmedia ul {  
-  list-style-type: none;
-  padding: 0;
-}
-*/
 .copyright {
   font-size: .875rem;
 }
