@@ -134,8 +134,6 @@ nav > ul > li {
 
 /* hero styling start */
 #hero {
-  display: inline-block;
-  width: 100%;
   background-color: #2b6777;
   color: #ffffff;
   padding: 16px 0;
@@ -484,4 +482,90 @@ ol > li > span {
 
 #problem-solution h3{
   font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Medium 640px + */
+@media only screen and (min-width: 640px){
+header {
+  text-align: unset;
+  padding:24px 24px;
+}
+
+nav {
+  width: auto;
+  float: right;
+  margin-top:18px;
+}
+
+main{
+  padding-top: 124px;
+}
+
+body{
+  font-size: 18px;
+}
+
+.col-md-6{
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding:16px;
+}
+
+/*index styles start*/
+#hero {
+  text-align: center;
+}
+
+#hero span{
+  display: block;
+  margin-top: 8px;
+}
+/*index styles end*/
+
+/*about styles start*/
+#mystory div{
+  margin-bottom: 24px;
+}
+#skills h2{
+  margin-bottom: 0;
+}
+
+
+}
+/* Large 1024px + */
+@media only screen and (min-width: 1024px){
+  .col-lg-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* XL 1440px+ + */
+@media only screen and (min-width: 1440px){
+  
 }
