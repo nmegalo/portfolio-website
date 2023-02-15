@@ -29,6 +29,11 @@ body {
   line-height: 1.6;
   color: #183942;
 }
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #mywork .row{
   margin: 24px 0 0 0;
@@ -90,7 +95,7 @@ nav > ul{
 nav > ul > li {
   display: inline-block;
 }
-/* NEED TO STYLE VARIOUS STATES */
+
 #mainnav a { 
   padding: 0 16px;
   text-transform: uppercase;
@@ -98,7 +103,6 @@ nav > ul > li {
   font-weight: 300;
   color: #ffffff;
 }
-
 
 #mainnav a:visited {
 /*nav > ul > li > a:visited {*/ 
@@ -175,6 +179,7 @@ footer {
   background-color: #2b6777;
   color: #ffffff;
   text-align: center;
+  display: inline-block;
   width: 100%;  
   padding-top: 8px;
   padding-bottom: 16px;
@@ -303,10 +308,9 @@ a.telephone:active{
 }
 
 #mystory h2{
-  display: inline-block;
   margin: 0;
   padding: 16px 0;
-  text-align: left;
+  text-align: center;
 }
 #mystory p{
   display: inline-block;
@@ -352,12 +356,11 @@ a.telephone:active{
 /* end download resume button states */
 
 /*skills and tools style start */
- #skills h3{
-  margin: 0;
-  padding-bottom: 8px;
+#skills h2{
+  text-align: center;
  }
 
-/*skills and tools style end*/
+ /*skills and tools style end*/
 
 /*Sage Project page style start*/
 #sage-project h2{
