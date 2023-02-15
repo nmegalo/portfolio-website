@@ -261,6 +261,41 @@ a.telephone:active{
 }
 /*index.html project cover image styling end*/
 
+/*CSS ANIMATION START*/
+#test-animation{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.cloud {
+  animation-duration: 10s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(300px,50px);}
+}
+
+.schoolbus{
+  animation-duration: 15s;
+  animation-direction: reverse;
+  animation-name: bus-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes bus-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(1000px,50px);}
+}
+
+
+/* For demo: */
+body {text-align: center;}
+body * {margin: 2em 2em 0; text-align: center; vertical-align: middle; font-family: sans-serif, sans; font-weight: bold;}
 /* View Project buttons on work.html page */
 .button{
   display: inline-block;
