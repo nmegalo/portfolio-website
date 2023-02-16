@@ -100,6 +100,8 @@ nav > ul > li {
   display: inline-block;
 }
 
+/*Top Nav states start here */
+
 #mainnav a { 
   padding: 0 16px;
   text-transform: uppercase;
@@ -118,7 +120,6 @@ nav > ul > li {
 /*this works with the mainnav a hover*/
 #mainnav a:hover,
 #mainnav a:focus {
-/*nav > ul > li > a:hover {*/
   padding: 0 16px;
   text-transform: uppercase;
   text-decoration: underline;
@@ -377,7 +378,6 @@ a.telephone:active{
   text-decoration: none;
   background-color: #c8d8e4;
   color: #183942;
-  /* border: 1px solid; */
   padding: 1em 2em;
   font-size: 1.125em;
   font-weight: 500;
@@ -444,78 +444,38 @@ a.telephone:active{
 div .image {
   padding-bottom: 16px;
 }
-/* OLD NAVIGATION ICON STYLES
-.navicon{
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
+
+/*page nav styling using divs and grid*/
+
+
+
+.page-nav-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-bottom: 64px;
 }
 
-#pagenav .navicon{
-  /* height: 32px; 
-  margin: 0 auto;
-  padding-right: 5px;
-  text-align: center;
-  vertical-align: middle;
-  /* width: 15%; 
- 
-  float: left;
- 
+#pagenav h2{
+  padding-top: 24px;
 }
 
-.navigation-icon {
-  font-size: 2rem;
-}
-.navicon h4{
-  margin: 0;
-} */
-
-/*new navigation icon styling using ul and li*/
-
-
-#page-nav > ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-} 
-
-#page-nav > ul > li {
-  display: inline-block;
-  padding: 0 16px;
-} 
-
-#page-nav i {
-  color: white;
-}
-
-#pagenav {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  padding-bottom: 40px;
-}
-
-.icons{
-  display: block;
-  margin: 0 auto;
-}
-
-#page-nav .icons{
-  height: 32px; 
-  margin: 0 auto;
-  padding-right: 5px;
-  text-align: center;
-  vertical-align: middle;
-  width: 15%;  
-  float: left;
-}
-
-.icons h4{
-  margin: 0;
+.page-nav-item {
+  padding: 5px;
   font-size: 1rem;
-  padding-right: 16px;
-  
+  text-align: center;
+  margin: 0;
+}
+
+.page-nav-item img{
+  width: 80px;
+}
+
+.page-nav-item h4{
+  margin: 0;
+}
+
+#nextsteps li{
+  padding-bottom: 16px;
 }
 
 #nextsteps h3{
@@ -622,6 +582,7 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 /* XL 1440px+ + */
