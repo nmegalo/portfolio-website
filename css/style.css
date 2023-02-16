@@ -41,6 +41,10 @@ body {
   border-bottom: #2b6777 solid thin;
 }
 
+#mywork .animation {
+  border-bottom: none;
+}
+
 h1,h2,h3,h4{
   font-family: 'raleway', sans-serif;
   line-height: 1.4;
@@ -68,7 +72,7 @@ img{
 }
 main{
   padding-top: 144px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
 /* header styling start */
 header {
@@ -251,7 +255,8 @@ a.telephone:active{
 /* footer styling end */
 
 /*index.html project cover image styling start*/
-.coverimage picture {
+.coverimage picture,
+.coverimage svg {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
 }
@@ -262,13 +267,13 @@ a.telephone:active{
 /*index.html project cover image styling end*/
 
 /*CSS ANIMATION START*/
-#test-animation{
+#schoolbus-animation {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 .cloud {
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -281,15 +286,33 @@ a.telephone:active{
 }
 
 .schoolbus{
-  animation-duration: 15s;
+  animation-duration: 7s;
   animation-direction: reverse;
   animation-name: bus-move;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: cubic-bezier(0.45, 0, 0.55, 1);
+  
 }
 @keyframes bus-move {
   from {transform: translate(0,50px);}
   to {transform: translate(1000px,50px);}
+}
+
+.window {
+  animation-duration: 7s;
+  animation-delay: 3s;
+  animation-name: lights-on;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes lights-on {
+  from {fill:#BA5357}
+  to {fill:rgba(255, 255, 0, 0.8)}
+  
 }
 
 /* View Project buttons on work.html page */
@@ -553,7 +576,7 @@ body{
 
 [class*="col-"] {
   float: left;
-  padding:16px;
+  padding:16px 16px 16px 0;
 }
 
 /*index styles start*/
