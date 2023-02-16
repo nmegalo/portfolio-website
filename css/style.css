@@ -13,9 +13,7 @@ highlight/CTA: #52ab98
   padding: 0 16px;
 }
 
-/* section{
-  background-color: pink;
-} */
+
 * {
   box-sizing:border-box;
   /* border: black thin solid; */
@@ -144,12 +142,7 @@ nav > ul > li {
   padding: 16px 0;
 }
 
-#hero .headshot {
- float: left;
- width: 25%;
- border-radius: 50%; 
- margin: 0 8px 0 16px;
-}
+
 #hero .container {
   float: inline-end;
   margin: 0;
@@ -445,18 +438,34 @@ div .image {
   padding-bottom: 16px;
 }
 
+
+
+
 /*page nav styling using divs and grid*/
 
 
 
-.page-nav-container {
+.page-nav-container{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
   padding-bottom: 64px;
+  padding-left: 16px;
+  
 }
+
+#pagenav {
+  display: inline-block;
+  width: 100%;
+  padding: 16px 16px 16px 0;
+  text-align: center;
+}
+
 
 #pagenav h2{
   padding-top: 24px;
+  padding-left: 16px;
+  
 }
 
 .page-nav-item {
@@ -466,9 +475,12 @@ div .image {
   margin: 0;
 }
 
-.page-nav-item img{
-  width: 80px;
+.page-nav-item img {
+  width: 90px;
+  height: 90px;
 }
+
+
 
 .page-nav-item h4{
   margin: 0;
@@ -499,22 +511,15 @@ ol > li > span {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* Media Queries */
 /*Small max-width 640*/
 @media only screen and (max-width: 640px){
   col-sm-4 {
     width: 33%;
   }
+  
 }
+
 
 /* Medium 640px + */
 @media only screen and (min-width: 640px){
@@ -541,6 +546,10 @@ body{
   width: 50%;
 }
 
+.col-md-3 {
+  width: 33.33%;
+}
+
 [class*="col-"] {
   float: left;
   padding:16px 16px 16px 0;
@@ -558,22 +567,23 @@ body{
 /*index styles end*/
 
 /*about styles start*/
+
+#aboutme {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #mystory div{
   margin-bottom: 24px;
 }
-#skills h2{
+/* #skills h2{
   margin-bottom: 0;
-}
+} */
 
-.skills.container {
+/* .skills .container {
   padding-right: 0;
-}
+} */
  /*sage styles start*/
- #pagenav {
-  float: left;
-  padding: 16px 16px 16px 0;
-  text-align: center;
- }
 
  #pagenav .container{
     max-width: 1200px;
@@ -587,6 +597,35 @@ body{
   margin-right: auto;
   width: 70%;
  }
+ #problem-solution {
+  padding-left: 16px;
+  
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .page-nav-item img {
+  width: 120px;
+  height: 120px;
+}
+
+#myrole .container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#myrole > div {
+  padding-right: 20px;
+}
+
+#skills{
+  display: inline-block;
+  width: 100%;
+}
 
 
 }
@@ -601,6 +640,10 @@ body{
     width: 41.66%;
     float: left;
   }
+  .col-lg-6 {
+    width: 50%;
+    float: left;
+  }
 
   .container {
     max-width: 1200px;
@@ -608,6 +651,12 @@ body{
     margin-right: auto;
   }
   #hero .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #pagenav .page-nav-container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
