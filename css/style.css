@@ -292,10 +292,6 @@ a.telephone:active{
   to {transform: translate(1000px,50px);}
 }
 
-
-/* For demo: */
-body {text-align: center;}
-body * {margin: 2em 2em 0; text-align: center; vertical-align: middle; font-family: sans-serif, sans; font-weight: bold;}
 /* View Project buttons on work.html page */
 .button{
   display: inline-block;
