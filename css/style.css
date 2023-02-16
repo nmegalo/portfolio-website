@@ -145,7 +145,7 @@ nav > ul > li {
  border-radius: 50%; 
  margin: 0 8px 0 16px;
 }
-#hero {
+#hero .container {
   float: inline-end;
   margin: 0;
   padding: 0 16px 0 16px;
@@ -590,6 +590,11 @@ body{
   }
 
   .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hero .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
