@@ -76,7 +76,7 @@ main{
 header {
   background-color: #2b6777;
   font-family: Raleway, sans-serif;
-  text-align: center;
+  /* text-align: center; REMOVED FOR HAMBURGER MENU ADD*/
   padding: 8px 0;
   position: fixed;
   width: 100%;
@@ -93,10 +93,15 @@ nav > ul{
   list-style-type: none;
   padding: 0;
 }
-/* this put nav links in line  */
-nav > ul > li {
+/* this put nav links in line MOVED TO MEDIA QUERY FOR HAMBURGER MENU ADD  */
+/* nav > ul > li {
   display: inline-block;
+} */
+/* This hides nav menu list elements on mobile*/
+.navtoggle li:not(:last-child){
+  display: none;
 }
+
 
 /*Top Nav states start here */
 
@@ -527,16 +532,32 @@ header {
   text-align: unset;
   padding:24px 24px;
 }
-
-.logo {
-  max-width: 250px;
-}
-
 nav {
   width: auto;
   float: right;
   margin-top:18px;
 }
+
+/*below added to hide hamburger menu*/
+
+.logo {
+  max-width: 250px;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+.navtoggle li:not(:last-child){
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+/*end hide hamburger menu styles */
+
 
 main{
   padding-top: 124px;
