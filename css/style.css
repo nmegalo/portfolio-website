@@ -84,9 +84,9 @@ header {
   -moz-box-shadow: 2px -1px 12px 6px rgba(242,242,242,0.25);
   box-shadow: 2px -1px 12px 6px rgba(242,242,242,0.25);
 }
-
+/*new logo max-width for hamburger menu*/
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 /* navigation styling start */
 nav > ul{
@@ -526,6 +526,10 @@ ol > li > span {
 header {
   text-align: unset;
   padding:24px 24px;
+}
+
+.logo {
+  max-width: 250px;
 }
 
 nav {
