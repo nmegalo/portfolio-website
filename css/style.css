@@ -69,15 +69,15 @@ img{
   width: 100%;
 }
 main{
-  padding-top: 144px;
-  padding-bottom: 24px;
+  padding-top: 59px;
+
 }
 /* header styling start */
 header {
   background-color: #2b6777;
   font-family: Raleway, sans-serif;
   /* text-align: center; REMOVED FOR HAMBURGER MENU ADD*/
-  padding: 8px 0;
+  padding: 10px 0 4px;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 2px -1px 12px 6px rgba(242,242,242,0.25);
@@ -92,6 +92,7 @@ header {
 nav > ul{
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 /* this put nav links in line MOVED TO MEDIA QUERY FOR HAMBURGER MENU ADD  */
 /* nav > ul > li {
@@ -101,6 +102,23 @@ nav > ul{
 .navtoggle li:not(:last-child){
   display: none;
 }
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+ /*hamburger menu icon styling*/
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li{
+  display: block;
+}
+
+
 
 
 /*Top Nav states start here */
@@ -538,7 +556,7 @@ nav {
   margin-top:18px;
 }
 
-/*below added to hide hamburger menu*/
+/*below added for hamburger menu*/
 
 .logo {
   max-width: 250px;
@@ -556,7 +574,10 @@ nav > ul > li {
   display: none;
 }
 
-/*end hide hamburger menu styles */
+nav > ul {
+  margin: 1em 0;
+}
+/*end hamburger menu styles */
 
 
 main{
