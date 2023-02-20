@@ -177,7 +177,7 @@ nav > ul{
 
 
 #hero .container {
-  float: inline-end;
+  /* float: inline-end; */
   margin: 0;
   padding: 0 16px 0 16px;
 }
