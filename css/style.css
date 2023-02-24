@@ -173,7 +173,7 @@ nav > ul{
 #hero {
   background-color: #2b6777;
   color: #ffffff;
-  padding: 16px 0;
+  padding: 42px 0;
 }
 
 
@@ -486,6 +486,7 @@ div .image {
   padding-bottom: 64px;
   padding-left: 16px;
   
+  
 }
 
 #pagenav {
@@ -559,7 +560,7 @@ ol > li > span {
 @media only screen and (min-width: 640px){
 header {
   text-align: unset;
-  padding:24px 24px;
+  padding: 24px 24px;
 }
 nav {
   width: auto;
@@ -580,10 +581,12 @@ nav > ul > li {
 .navtoggle li:not(:last-child){
   display: inline-block;
   border-top: none;
+  padding: 0;
 }
 
 .navtoggle li:last-child {
   display: none;
+  
 }
 
 nav > ul {
