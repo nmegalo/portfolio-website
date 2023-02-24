@@ -488,7 +488,7 @@ div .image {
 }
 
 #pagenav {
-  display: inline-block;
+  display: block;
   width: 100%;
   padding: 16px 16px 16px 0;
   text-align: center;
