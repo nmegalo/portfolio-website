@@ -101,6 +101,7 @@ nav > ul{
 /* This hides nav menu list elements on mobile*/
 .navtoggle li:not(:last-child){
   display: none;
+  
 }
 .navtoggle, .navtoggle.responsive {
   position: relative;
@@ -578,6 +579,7 @@ nav > ul > li {
 
 .navtoggle li:not(:last-child){
   display: inline-block;
+  border-top: none;
 }
 
 .navtoggle li:last-child {
@@ -677,6 +679,7 @@ body{
 }
 #myrole > div {
   padding-right: 20px;
+  
 }
 
 #skills{
