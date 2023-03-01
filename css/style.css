@@ -1,11 +1,11 @@
 /*
 Colors used:
-Dark background: #2b6777
+Dark background: #2a6474
 Light background: #c8d8e4
 Grey backgrounds: #f2f2f2
 Text on dark background: #ffffff
 Text: #183942
-highlight/CTA: #52ab98
+highlight/CTA: #52ac99
 */
 
 /* Layout styling */
@@ -36,7 +36,7 @@ body {
 #mywork .row{
   margin: 24px 0 0 0;
   padding-bottom: 24px;
-  border-bottom: #2b6777 solid thin;
+  border-bottom: #2a6474 solid thin;
 }
 
 #mywork .animation {
@@ -74,7 +74,7 @@ main{
 }
 /* header styling start */
 header {
-  background-color: #2b6777;
+  background-color: #2a6474;
   font-family: Raleway, sans-serif;
   /* text-align: center; REMOVED FOR HAMBURGER MENU ADD*/
   padding: 10px 0 4px;
@@ -169,7 +169,7 @@ nav > ul{
 
 /* hero styling start */
 #hero {
-  background-color: #2b6777;
+  background-color: #2a6474;
   color: #ffffff;
   padding: 42px 0;
 }
@@ -204,7 +204,7 @@ nav > ul{
 
 /* footer styling start */
 footer {
-  background-color: #2b6777;
+  background-color: #2a6474;
   color: #ffffff;
   text-align: center;
   display: inline-block;
@@ -219,7 +219,7 @@ footer h2 {
 
 /* regular  */
 a.telephone{
-  color: #52ab98;
+  color: #52ac99;
   text-decoration: none;
 }
 
@@ -230,7 +230,7 @@ a.telephone:visited {
 }
 a.telephone:hover,
 a.telephone:focus {
-  color: #52ab98;
+  color: #52ac99;
   text-decoration: underline;
 }
 a.telephone:active{
@@ -241,7 +241,7 @@ a.telephone:active{
 #email {
   display: inline-block;
   color:#183942;
-  background-color: #52ab98;
+  background-color: #52ac99;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.5;
@@ -257,7 +257,7 @@ a.telephone:active{
 }
 #email:hover,
 #email:focus {
-  background-color: #52ab98;
+  background-color: #52ac99;
   opacity: .8;
 }
 
@@ -356,13 +356,13 @@ a.telephone:active{
   transition: 0.25s;
 }
 .button:visited{
-  color:#2b6777;
+  color:#2a6474;
 }
 
 .button:hover,
 .button:focus {
   border-color: #c8d8e4;
-  color:#2b6777;
+  color:#2a6474;
   text-decoration: underline;
   box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
   transform: translateY(-0.25em);
@@ -371,7 +371,7 @@ a.telephone:active{
 
 .button:active{
   border-color: #c8d8e4;
-  color:#2b6777;
+  color:#2a6474;
   text-decoration: underline;
   box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
   cursor: pointer;
@@ -411,13 +411,13 @@ a.telephone:active{
   transition: 0.25s;
 }
 #resume:visited{
-  color: #2b6777;
+  color: #2a6474;
 }
 #resume:hover,
 #resume:focus {
   text-decoration: none;
   border-color: #c8d8e4;
-  color:#2b6777;
+  color:#2a6474;
   text-decoration: underline;
   box-shadow: 0 0.5em 0.5em -0.4em #c8d8e4;
   transform: translateY(-0.25em);
