@@ -125,7 +125,9 @@ nav > ul{
   padding: 0 0 10px;
 }
 
-
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
 
 
 
